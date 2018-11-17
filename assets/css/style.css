@@ -1,0 +1,236 @@
+/* Tell the entire page to do box siziing based on the boder. Do all of the size based on the border */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    background-color: teal;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/* img {
+	margin-bottom: 16px;
+} */
+
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid teal;
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+section#left-column, aside#right-column {
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+}
+
+section#left-column {
+    width: 650px;
+    float: left;
+}
+section#left-column h2 {
+    font-size: 36px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.inline-image {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    border: 3px solid #777;
+}
+
+aside#right-column {
+    width: 270px;
+    float: right;
+}
+
+aside#right-column h2 {
+    font-size: 1.5em;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+aside#right-column ul {
+    text-align: center;
+}
+
+aside#right-column ul li {
+    display: inline-block;
+}
+
+/* aside#contact ul li img {
+    width: 60px;
+} */
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+div.image-item {
+    display: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+}
+
+div.image-item h4 {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    /* position: absolute;  */
+    bottom: 15px;
+}
+
+div.image-item:nth-of-type(even) {
+    float: right;
+    
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 200px;
+}
+
+form button {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
+
+div#img1 {
+    background: url('../images/Bulbasaur.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+div#img2 {
+    background: url('../images/Charmander.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+div#img3 {
+    background: url('../images/Squirtle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+div#img4 {
+    background: url('../images/Pikachu.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+div#img5 {
+    background: url('../images/Eevee.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+div#img6 {
+    background: url('../images/Psyduck.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+footer {
+    background-color: #666;
+    border-top: 5px solid teal;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
