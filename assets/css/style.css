@@ -1,3 +1,4 @@
+/* HTML Elements */
 * {
 	box-sizing: border-box;
 }
@@ -127,6 +128,8 @@ footer {
 
 }
 
+/* HTML classes */
+
 /* be 960px wide */
 .wrapper {
 	width: 960px;
@@ -166,6 +169,8 @@ footer {
 	display: block;
 	clear: both;
 }
+
+/* HTML IDs */
 
 #left-column, #right-column {
 	background-color: #fff;
