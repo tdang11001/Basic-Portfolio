@@ -113,6 +113,10 @@ form button {
 	border: none;
 }
 
+form button:hover {
+	cursor: pointer;
+}
+
 footer {
 	background: #666;
 	border-top: 8px solid #4aaaa5;
@@ -205,34 +209,40 @@ footer {
 	background-image: url('../images/Bulbasaur.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
 
 #port2 {
 	background-image: url('../images/Charmander.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
 
 #port3 {
 	background-image: url('../images/Squirtle.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
 
 #port4 {
 	background-image: url('../images/Pikachu.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
 
 #port5 {
 	background-image: url('../images/Eevee.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
 
 #port6 {
 	background-image: url('../images/Psyduck.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 10px outset silver;
 }
